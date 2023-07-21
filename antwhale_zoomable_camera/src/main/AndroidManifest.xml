@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.github.antwhale.antwhale_zoomable_camera">
+
+    <!-- Permission declarations -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- A camera with (optional) RAW capability is required to use this application -->
+    <uses-feature android:name="android.hardware.camera.any" />
+    <uses-feature android:name="android.hardware.camera.raw" android:required="false" />
+
+</manifest>
